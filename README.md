@@ -1,4 +1,4 @@
-# Template Projet Unity XR pour casque PICO
+# Projet Unity XR pour casque PICO
 
 Ce dépôt contient un template de projet Unity préconfiguré pour le développement d'applications de réalité étendue sur casque PICO.
 
