@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; // <-- Obligatoire pour recharger la scène
+using UnityEngine.SceneManagement;
+using UnityEngine.XR;
 
 public class CauldronLogic : MonoBehaviour
 {
