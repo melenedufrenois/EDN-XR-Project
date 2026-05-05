@@ -3042,7 +3042,7 @@ PrefabInstance:
     - target: {fileID: -5202124151901927057, guid: d09fcb577800ed5439d80ec880a6f3bf,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -5006199493367781426, guid: d09fcb577800ed5439d80ec880a6f3bf,
         type: 3}
@@ -20196,7 +20196,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -114, y: -99.2}
+  m_AnchoredPosition: {x: -114, y: -117.7}
   m_SizeDelta: {x: 80, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1793785974
@@ -21688,10 +21688,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Recette 1.\n\nL'\xE9lixir de Poigne. \n\nTrouvez la sylveria lumina (feuilles
-    violettes/roses) et la fleur de S\xE9l\xE9nor (feuilles vertes, fleur rouge/rose),
-    jetez-les dans le chaudron en \xE9bullition.\n\nAjoutez-y la carborana (pot en
-    verre)."
+  m_text: "L'\xE9lixir de Poigne\n \nAttention ! Respectez l'ordre des ingr\xE9dients.\n\nTrouvez
+    la sylveria lumina (feuilles violettes/roses) et la fleur de S\xE9l\xE9nor (feuilles
+    vertes, fleur rouge/rose), jetez-les dans le chaudron en \xE9bullition.\n\nAjoutez-y
+    la carborana (pot en verre)."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -22011,11 +22011,12 @@ MonoBehaviour:
   - Jar_carbonara
   splashEffect: {fileID: 0}
   liquidRenderer: {fileID: 1744336258}
-  successColor: {r: 0.40669155, g: 0.23251157, b: 0.5188679, a: 1}
+  successColor: {r: 0.23137252, g: 0.5176471, b: 0.2711065, a: 1}
+  failureColor: {r: 0.8018868, g: 0.14751692, b: 0.14751692, a: 1}
   audioSource: {fileID: 2006964152}
   plantSound: {fileID: 8300000, guid: 392eda3b0d549eb44aebdb416fa4ebe8, type: 3}
-  jarSound: {fileID: 8300000, guid: 6c5a1b760ba835240aa588e3bafb2917, type: 3}
   successSound: {fileID: 8300000, guid: d4630dd4b5218914988280f00772af19, type: 3}
+  errorSound: {fileID: 8300000, guid: ecb9fda6c42d0624da6f40c3d7caa087, type: 3}
 --- !u!1 &2013821021 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2305392239975721689, guid: d09fcb577800ed5439d80ec880a6f3bf,
