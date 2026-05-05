@@ -4,44 +4,85 @@ using UnityEngine;
 
 public class CauldronLogic : MonoBehaviour
 {
-    [Header("Paramètres")]
-    public string plantTag = "Plante"; // Pour identifier tes plantes
-    public GameObject splashEffect;    // Optionnel : un petit effet de particules
+    [Header("Configuration Recette")]
+    // La liste des tags qu'il faut mettre pour réussir
+    public List<string> recipeTagsRequired;
+    private List<string> currentIngredients = new List<string>();
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Header("Effets Visuels & Liquide")]
+    public GameObject splashEffect;
+    public Renderer liquidRenderer; // <--- C'EST CETTE LIGNE QUI FAIT APPARAITRE LA CASE
+    public Color successColor = Color.green;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [Header("Sons")]
+    public AudioSource audioSource;
+    public AudioClip plantSound;
+    public AudioClip jarSound;
+    public AudioClip successSound;
+
+    private bool isRecipeComplete = false;
 
     private void OnTriggerEnter(Collider other)
     {
-        // On verifie si l'objet qui entre a le bon tag
-        if (other.CompareTag(plantTag))
+        if (isRecipeComplete) return;
+
+        // Si l'objet a un tag présent dans notre liste de recette
+        if (recipeTagsRequired.Contains(other.tag))
         {
-            Debug.Log("Une plante est tombee dans le chaudron : " + other.gameObject.name);
-
-            // 1. Jouer un son (reutilise ta logique PinAudio si tu veux)
-            AudioSource audio = GetComponent<AudioSource>();
-            if (audio != null) audio.Play();
-
-            // 2. Creer un effet visuel (si tu en as un)
-            if (splashEffect != null)
-            {
-                Instantiate(splashEffect, other.transform.position, Quaternion.identity);
-            }
-
-            // 3. Faire disparaitre la plante
-            // On desactive l'objet plutot que de le detruire (mieux pour les perfs)
+            AddIngredient(other.gameObject);
+        }
+        // Sinon, si c'est une jarre
+        else if (other.CompareTag("Jar"))
+        {
+            PlaySound(jarSound);
             other.gameObject.SetActive(false);
+        }
+    }
 
-            // TODO: Ici tu pourras ajouter un point a ton "Livre de Recettes"
+    void AddIngredient(GameObject ingredient)
+    {
+        Debug.Log("Ingrédient ajouté : " + ingredient.tag);
+
+        currentIngredients.Add(ingredient.tag);
+        PlaySound(plantSound);
+
+        if (splashEffect != null)
+            Instantiate(splashEffect, ingredient.transform.position, Quaternion.identity);
+
+        ingredient.SetActive(false);
+
+        CheckRecipe();
+    }
+
+    void CheckRecipe()
+    {
+        // On vérifie si on a atteint le nombre d'ingrédients requis
+        if (currentIngredients.Count >= recipeTagsRequired.Count)
+        {
+            isRecipeComplete = true;
+            CompletePotion();
+        }
+    }
+
+    void CompletePotion()
+    {
+        Debug.Log("Potion réussie !");
+
+        // Change la couleur du disque de liquide
+        if (liquidRenderer != null)
+        {
+            liquidRenderer.material.color = successColor;
+        }
+
+        // Joue le son de victoire
+        PlaySound(successSound);
+    }
+
+    private void PlaySound(AudioClip clip)
+    {
+        if (audioSource != null && clip != null)
+        {
+            audioSource.PlayOneShot(clip);
         }
     }
 }

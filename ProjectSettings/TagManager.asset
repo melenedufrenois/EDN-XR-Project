@@ -7,6 +7,10 @@ TagManager:
   - RightHand
   - LeftHand
   - Plante
+  - Jar
+  - Plante_sylveria_lumina
+  - Plante_fleur_selenor
+  - Jar_carbonara
   layers:
   - Default
   - TransparentFX
