@@ -283,6 +283,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Padder Pod B2
       objectReference: {fileID: 0}
+    - target: {fileID: 5547636192213182185, guid: 85ce5290fc4b7fc438bb85e970bbe9f3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4628645334732151732, guid: 85ce5290fc4b7fc438bb85e970bbe9f3, type: 3}
     m_RemovedGameObjects: []
@@ -724,6 +729,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sheen Stalk C1
       objectReference: {fileID: 0}
+    - target: {fileID: 6922051242334679462, guid: 561840763eb18614da0e59bc0411337d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
+      objectReference: {fileID: 0}
     - target: {fileID: 7735988177639877404, guid: 561840763eb18614da0e59bc0411337d,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -1163,6 +1173,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rot Root Leaf D
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086941009710518764, guid: 7d6154208ff67b64fbaf1a9d5989a7da,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1168442328502807737, guid: 7d6154208ff67b64fbaf1a9d5989a7da, type: 3}
@@ -1766,7 +1781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 687957274}
-  m_MoveSpeed: 1
+  m_MoveSpeed: 4
   m_EnableStrafe: 1
   m_EnableFly: 0
   m_UseGravity: 1
@@ -1917,6 +1932,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sheen Stalk D1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3672786146132487886, guid: b70aba915c997334cafd21f67701e737,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
       objectReference: {fileID: 0}
     - target: {fileID: 4157819880386835572, guid: b70aba915c997334cafd21f67701e737,
         type: 3}
@@ -2807,6 +2827,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spiral Chute D3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488711701839222503, guid: 471e98c9e9423474eae10a0a507b36a9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
       objectReference: {fileID: 0}
     - target: {fileID: 3009106829554502749, guid: 471e98c9e9423474eae10a0a507b36a9,
         type: 3}
@@ -4675,6 +4700,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bluntspear B3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4753616810509254603, guid: 31231fb75df7e5b4bbe93be996800176,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
+      objectReference: {fileID: 0}
     - target: {fileID: 5382907531167982961, guid: 31231fb75df7e5b4bbe93be996800176,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -6093,6 +6123,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slapdash Cane A3
       objectReference: {fileID: 0}
+    - target: {fileID: 3859852083703063590, guid: 098369b9a81b512489966eaac4885bf9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
+      objectReference: {fileID: 0}
     - target: {fileID: 4130252572535626088, guid: 098369b9a81b512489966eaac4885bf9,
         type: 3}
       propertyPath: m_IsTrigger
@@ -6440,6 +6475,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Slapdash Cane B1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5138827616861331783, guid: e85cd56f0d3781247bae0e5731491cfe,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
       objectReference: {fileID: 0}
     - target: {fileID: 5445311185864989802, guid: e85cd56f0d3781247bae0e5731491cfe,
         type: 3}
@@ -7463,6 +7503,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sparrow Pile Leaf A
       objectReference: {fileID: 0}
+    - target: {fileID: 6437026678430268099, guid: 2900b7a78b04b5945a86b4d1c4bbdb76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6166976522562388078, guid: 2900b7a78b04b5945a86b4d1c4bbdb76, type: 3}
     m_RemovedGameObjects: []
@@ -8285,6 +8330,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Limbo Chute A2
       objectReference: {fileID: 0}
+    - target: {fileID: 1333135602753370012, guid: 6f7ed54f05e761a4998f0cb904aae0a6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
+      objectReference: {fileID: 0}
     - target: {fileID: 1858842505156111654, guid: 6f7ed54f05e761a4998f0cb904aae0a6,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -8761,6 +8811,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Steel Sprig D1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072230808182453666, guid: bd0ac735d18623d4eb0733eb18b03d6e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1153874923900946671, guid: bd0ac735d18623d4eb0733eb18b03d6e, type: 3}
@@ -10896,6 +10951,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shepard Duster A6 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1884556463137691394, guid: f5723bd256c34104fae2a87b7925465d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1650045688470317655, guid: f5723bd256c34104fae2a87b7925465d, type: 3}
     m_RemovedGameObjects: []
@@ -11871,6 +11931,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sheen Stalk B2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8294559997144133179, guid: 8c09a8b5b303ad544b5133492ef00b77,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
       objectReference: {fileID: 0}
     - target: {fileID: 8671649138401653889, guid: 8c09a8b5b303ad544b5133492ef00b77,
         type: 3}
@@ -12934,6 +12999,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Limbo Chute D2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1853412296512488787, guid: 8cb6370ab7b59ee4cbbfb7c34dee7b8c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1547493862660569094, guid: 8cb6370ab7b59ee4cbbfb7c34dee7b8c, type: 3}
@@ -18101,6 +18171,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sparrow Pile Leaf D
       objectReference: {fileID: 0}
+    - target: {fileID: 9112034818117079186, guid: 06e4931f74731444f897645f0feb6a91,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8265542044371463487, guid: 06e4931f74731444f897645f0feb6a91, type: 3}
     - {fileID: 8265542044371463486, guid: 06e4931f74731444f897645f0feb6a91, type: 3}
@@ -19532,6 +19607,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shepard Duster B4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3926531519508981822, guid: 7d0b9ede9ed477842ba003df4f15ecd9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
+      objectReference: {fileID: 0}
     - target: {fileID: 4232466987335816546, guid: 7d0b9ede9ed477842ba003df4f15ecd9,
         type: 3}
       propertyPath: m_IsTrigger
@@ -20238,6 +20318,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Two Faced Tuber B3
       objectReference: {fileID: 0}
+    - target: {fileID: 1750813348367522471, guid: 8141c9b83561bda4aaff17c9d80b190d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1480921934491838450, guid: 8141c9b83561bda4aaff17c9d80b190d, type: 3}
     m_RemovedGameObjects: []
@@ -20530,6 +20615,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Padder Pod C2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7871985530780154828, guid: 5164d720289b5bc48882075d5ce00d93,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7061504509342074497, guid: 5164d720289b5bc48882075d5ce00d93, type: 3}
@@ -23144,6 +23234,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Row Root Leaf D
+      objectReference: {fileID: 0}
+    - target: {fileID: 2982326912268813495, guid: c246139c2ce5d5d41a3952a9e2036917,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plante
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2711786376362457570, guid: c246139c2ce5d5d41a3952a9e2036917, type: 3}
